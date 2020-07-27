@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const token = process.argv.length == 2 ? process.env.token : "";
 const moment = require("moment");
 require("moment-duration-format");
-const adminUserId = 250693463065100298;//이건 일단 나중에 알려드릴게요
+const adminUserId = 250693463065100298;//이건 일단 나중에 알려드릴게요.
 
 client.on('ready', () => {
   console.log('켰다.');
